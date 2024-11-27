@@ -13,15 +13,6 @@ Este projeto realiza uma análise detalhada de um dataset relacionado a casos de
 
 ---
 
-## 📁 Estrutura do Projeto  
-
-- `data/`: Contém o dataset bruto e processado.  
-- `notebooks/`: Jupyter Notebooks com análises e experimentos.  
-- `scripts/`: Scripts Python para pré-processamento e modelagem.  
-- `reports/`: Relatórios gerados com visualizações e insights.  
-
----
-
 ## 🔧 Ferramentas e Tecnologias  
 
 - **Linguagem de Programação**: Python  
