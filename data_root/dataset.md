@@ -1,52 +1,51 @@
-# Heart Attack Prediction Dataset
+# Conjunto de Dados de Predição de Ataques Cardíacos  
 
-## General Description
-This dataset is designed to predict the risk of heart attacks based on clinical and demographic variables. This dataset provides a comprehensive range of features relevant to heart health and lifestyle choices, covering patient-specific details such as age, gender, cholesterol levels, blood pressure, heart rate, and more. The dataset culminates in a crucial binary classification feature that indicates the presence or absence of a heart attack risk, providing a comprehensive resource for predictive analytics and cardiovascular health research.
+## Descrição Geral  
+Este conjunto de dados foi projetado para prever o risco de ataques cardíacos com base em variáveis clínicas e demográficas. Ele fornece uma ampla gama de características relevantes para a saúde do coração e escolhas de estilo de vida, abrangendo detalhes específicos dos pacientes, como idade, sexo, níveis de colesterol, pressão arterial, frequência cardíaca, entre outros. O conjunto culmina em uma importante característica de classificação binária que indica a presença ou ausência de risco de ataque cardíaco, sendo um recurso abrangente para análises preditivas e pesquisas sobre saúde cardiovascular.  
 
-- **Source**: [Kaggle -Heart Attack Risk Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data)
-- **Archive**: `heart_attack_prediction_dataset.csv`
-- **Lines**: 8763
-- **Columns**: 26
-- **Format**: CSV
-- **Observation**: Data collected from different regions of the world.
+- **Fonte**: [Kaggle - Heart Attack Risk Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data)  
+- **Arquivo**: `heart_attack_prediction_dataset.csv`
+- **Arquivo Limpo**: `clean_dataset.csv`  
+- **Linhas**: 8763  
+- **Colunas**: 26  
+- **Formato**: CSV  
+- **Observação**: Dados coletados de diferentes regiões do mundo.  
 
-## Column Structure
+## Estrutura da Tabela  
 
-| Column                            | Type   | Description                                                             |
-|---------------------|----------------------|-------------------------------------------------------------------------|
-| `Patient ID`                      | object |  Unique identifier for each patient                                     |
-| `Age`                             | Int    |  Age of the patient                                                     |
-| `Sex`                             | object |  Gender of the patient (Male/Female)                                    |
-| `Cholesterol`                     | int    |  Cholesterol levels of the patient                                      |
-| `Blood Pressure`                  | object |  Blood pressure of the patient (systolic/diastolic)                     |
-| `Heart Rate`                      | int    |  Heart rate of the patient.                                             |
-| `Diabetes`                        | int    |  Whether the patient has diabetes (Yes/No).                             |
-| `Family History`                  | int    |  Family history of heart-related problems (1: Yes, 0: No)               |
-| `Smoking`                         | int    |  Smoking status of the patient (1: Smoker, 0: Non-smoker).              |
-| `Obesity`                         | int    |  Obesity status of the patient (1: Obese, 0: Not obese).                |
-| `Alcohol Consumption`             | int    |  Level of alcohol consumption by the patient(None/Light/Moderate/Heavy) |
-| `Exercise Hours Per Week`         | float  |  Number of exercise hours per week                                      |
-| `Diet`                            | object |  Dietary habits of the patient (Healthy/Average/Unhealthy).             |
-| `Previous Heart Problems`         | int    |  Previous heart problems of the patient (1: Yes, 0: No) .               |
-| `Medication Use`                  | int    |  Medication usage by the patient (1: Yes, 0: No)                        |
-| `Stress Level`                    | int    |  Stress level reported by the patient (1-10).                           |
-| `Sedentary Hours Per Day`         | float  |  Hours of sedentary activity per day                                    |
-| `Income`                          | int    |  Income level of the patient                                            |
-| `BMI`                             | float  |  Body Mass Index (BMI) of the patient                                   |
-| `Triglycerides`                   | int    |  Triglyceride levels of the patient                                     |
-| `Physical Activity Days Per Week` | int    |  Days of physical activity per week                                     |
-| `Sleep Hours Per Day`             | int    |  Hours of sleep per day                                                 |
-| `Country`                         | object |  Country of the patient                                                 |   
-| `Continent`                       | object |  Continent where the patient resides                                    |
-| `Hemisphere`                      | object |  Hemisphere where the patient resides                                   |
-| `Heart Attack Risk`               | int    |  Presence of heart attack risk (1: Yes, 0: No)                          |
+| Coluna                             | Tipo   | Descrição                                                              |
+|------------------------------------|--------|-------------------------------------------------------------------------|
+| `Patient ID`                      | object | Identificador único para cada paciente                                 |
+| `Age`                             | Int    | Idade do paciente                                                      |
+| `Sex`                             | object | Gênero do paciente (Masculino/Feminino)                                |
+| `Cholesterol`                     | int    | Níveis de colesterol do paciente                                       |
+| `Blood Pressure`                  | object | Pressão arterial do paciente (sistólica/diastólica)                   |
+| `Heart Rate`                      | int    | Frequência cardíaca do paciente                                        |
+| `Diabetes`                        | int    | Indica se o paciente tem diabetes (Sim/Não)                           |
+| `Family History`                  | int    | Histórico familiar de problemas cardíacos (1: Sim, 0: Não)            |
+| `Smoking`                         | int    | Status de tabagismo do paciente (1: Fumante, 0: Não fumante)          |
+| `Obesity`                         | int    | Status de obesidade do paciente (1: Obeso, 0: Não obeso)              |
+| `Alcohol Consumption`             | int    | Nível de consumo de álcool do paciente (Nenhum/Leve/Moderado/Excessivo) |
+| `Exercise Hours Per Week`         | float  | Número de horas de exercício por semana                               |
+| `Diet`                            | object | Hábitos alimentares do paciente (Saudável/Regular/Não saudável)       |
+| `Previous Heart Problems`         | int    | Indica se o paciente teve problemas cardíacos anteriores (1: Sim, 0: Não) |
+| `Medication Use`                  | int    | Uso de medicação pelo paciente (1: Sim, 0: Não)                       |
+| `Stress Level`                    | int    | Nível de estresse relatado pelo paciente (1-10)                       |
+| `Sedentary Hours Per Day`         | float  | Horas de atividade sedentária por dia                                 |
+| `Income`                          | int    | Nível de renda do paciente                                            |
+| `BMI`                             | float  | Índice de Massa Corporal (IMC) do paciente                            |
+| `Triglycerides`                   | int    | Níveis de triglicerídeos do paciente                                  |
+| `Physical Activity Days Per Week` | int    | Dias de atividade física por semana                                   |
+| `Sleep Hours Per Day`             | int    | Horas de sono por dia                                                 |
+| `Country`                         | object | País do paciente                                                      |
+| `Continent`                       | object | Continente onde o paciente reside                                     |
+| `Hemisphere`                      | object | Hemisfério onde o paciente reside                                     |
+| `Heart Attack Risk`               | int    | Indica a presença de risco de ataque cardíaco (1: Sim, 0: Não)        |
 
-## Missing Values
-There are no missing values ​​in the dataset.
+## Valores Ausentes  
+Não há valores ausentes no conjunto de dados.  
 
-## Data Content
-- **Heart attack risk distribution**:
-  - 34% patients are at risk of heart attack.
-  - 66% patients who are not at risk of heart attack.
-
-
+## Conteúdo dos Dados  
+- **Distribuição de risco de ataque cardíaco**:  
+  - 34% dos pacientes estão em risco de ataque cardíaco.  
+  - 66% dos pacientes não estão em risco de ataque cardíaco.  
