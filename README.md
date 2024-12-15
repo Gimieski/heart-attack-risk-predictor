@@ -1,4 +1,4 @@
-# 🚑 Análise de Casos de Ataques Cardíacos  
+# 🚑 Análise de Casos de Ataques Cardíacos - Projeto final Geração Caldeira 2024 
 
 Este projeto realiza uma análise detalhada de um dataset relacionado a casos de ataques cardíacos. Ele abrange desde a exploração inicial dos dados até o desenvolvimento de modelos preditivos, passando pelo pré-processamento necessário para garantir a qualidade dos resultados.  
 
